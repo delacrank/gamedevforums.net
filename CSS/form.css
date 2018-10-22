@@ -1,0 +1,54 @@
+.form div {
+    border-radius: 8px;
+    border: solid 2px #cad8e2;
+    padding: 10px;
+}
+
+.form div h1 {
+    border-bottom: solid 2px #cad8e2;
+    background-color: #cad8e2;
+    color: black;
+    padding: 10px 0 10px 20px;
+    margin: -10px -10px 10px -10px;
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 24px;
+}
+
+.form input[type='submit'] {
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    font-size: 22px;
+    font-family: 'Advent Pro', sans-serif;
+    margin-bottom: 20px;
+}
+
+.form input[type='text'], .form input[type='password'] {
+    width: 98%;
+    margin-right: 2%;
+}
+
+.form label {
+    display: inline-block;
+    width: 100%;
+    color: black !important;
+}
+
+.form fieldset {
+    margin: 12px;
+    margin-top: 25px;
+    outline: solid 1px black;
+    outline-offset: 10px;
+    background-color: #fafafa;
+    border: solid 1px #cad8e2;
+}
+
+.form textarea {
+    width: 98%;
+    margin-left: 5px;
+}
+
+.form span {
+    color: red;
+}
+

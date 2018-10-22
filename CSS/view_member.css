@@ -1,0 +1,28 @@
+.vm_col1 {
+    width: 45%;
+    float: left;
+}
+
+.vm_col2 {
+    margin-left: 15px;
+    width: 50%;
+    float: left;
+}
+
+@media (max-width: 566px) {
+    .pH1 {
+        text-align: center;
+    }
+    
+    .vm_col1 {
+        text-align: center;
+        width: 100%;
+        float: none;
+    }
+
+    .vm_col2 {
+        width: 100%;
+        float: none;
+    }
+}
+

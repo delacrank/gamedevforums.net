@@ -1,0 +1,39 @@
+.home_col1 {
+    margin-left: 10px;
+    width: 40%;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.home_col2 {
+    margin-left: 20px;
+    width: 40%;
+    float: left;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 30px;
+    font-family: 'Orbitron', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 22px;
+    line-height: 1.5;
+    font-family: 'Advent Pro', sans-serif;
+}
+
+@media (max-width: 566px) {
+    .home_col1 {
+        float: none;
+        width: 100%;
+    }
+
+    .home_col2 {
+        float: none;
+        width: 100%;
+    }
+}

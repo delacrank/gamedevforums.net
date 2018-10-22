@@ -1,0 +1,46 @@
+.display_posts {
+    width: 100%;
+    background-color: #fafafa;
+    border-spacing: 0;
+}
+
+.display_posts tr:first-child td {
+    background-color: #cad8e2;
+    font-size: 22px;
+    font-family: 'Advent Pro', sans-serif;   
+}
+
+.display_posts td {
+    font-size: 20px;
+    font-family: 'Advent Pro', sans-serif; 
+    border-bottom: solid 1px black;
+    padding: 5px 0 5px 0;
+}
+
+.display_posts td:first-child {
+    padding-left: 20px;
+}
+
+.display_posts td:last-child {
+    padding-right: 20px;
+}
+
+.display_posts td a {
+    color: #758ed8;
+    font-size: 20px;
+    font-family: 'Sorts Mill Goudy', serif;
+    text-decoration: none;
+}
+
+.display_posts td a:hover {
+    color: red;
+}
+
+.display_posts td:nth-child(3), .display_posts td:nth-child(4) {
+    text-align: right;
+}
+
+.forums_col1 img, .forums_col2 img {
+    width: 60%;
+    height: 60%;
+}
